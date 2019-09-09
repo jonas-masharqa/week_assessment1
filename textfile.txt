@@ -1,0 +1,33 @@
+1.variable = 'variable'
+
+2. strings, booleans, integers, floats, symbols
+
+3. car1 = {wheels: 4, max_speed: 200, color: 'blue'}
+car2 = {wheels:4, max_speed: 250, color: 'red'}
+
+4. array = []
+array << car1
+array << car2
+
+5. array[1][2]
+
+6. class Car
+    attr_accessor :color
+    def initialize
+    @color = 'red'
+    end
+    end
+
+class Car
+def paint(color)
+@color = color
+end
+
+tesla = Car.new
+
+tesla.paint('black')
+
+Why write test before code?
+
+Several reasons. First and foremost to encourage a TDD way of working. Also to stay
+in scope easier. It also promotes critical thinking etc.
