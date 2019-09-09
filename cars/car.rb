@@ -11,5 +11,12 @@ class Car
         @color = color
     end
 
+    def driving
+        if driver.license == :active
+            return true
+        end
+    end
+    
+
 
 end
